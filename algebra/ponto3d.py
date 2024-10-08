@@ -24,7 +24,7 @@ class Ponto3D:
         return Ponto3D(self.x * fator, self.y * fator, self.z * fator)
     
     def __str__(self) -> str:
-        return f"P({self.x}, {self.y}, {self.z})"
+        return f"Ponto({self.x}, {self.y}, {self.z})"
     
     def __add__(self, outro):
         return Ponto3D(self.x + outro.x, self.y + outro.y, self.z + outro.z)
